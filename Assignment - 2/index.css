@@ -1,0 +1,408 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #112e42;
+    overflow: hidden;
+}
+
+.flex-row-c {
+    position: relative;
+    width: 1261px;
+    height: 89px;
+    margin: 31px 0 0 32px;
+    z-index: 24;
+}
+
+.img {
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    top: 0;
+    left: 0;
+    background: url(images/icons8-huawei-logo-64.png) no-repeat center;
+    background-size: cover;
+    z-index: 24;
+}
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 38px;
+    left: 675px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 38px;
+    left: 794px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+}
+
+.tours {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 38px;
+    left: 909px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 38px;
+    left: 1019px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.login-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 38px;
+    left: 1160px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+}
+
+.expand-arrow {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 40px;
+    left: 1229px;
+    background: url(icons8-expand-arrow-50.png) no-repeat center;
+    background-size: contain;
+    z-index: 3;
+}
+
+.flex-row-bfc {
+    position: relative;
+    width: 1266px;
+    height: 501px;
+    margin: 22px 0 0 65px;
+    z-index: 25;
+}
+
+.apple-watch-mm {
+    position: absolute;
+    width: 632px;
+    height: 494px;
+    top: 0;
+    left: 634px;
+    background: #ffffff;
+    z-index: 9;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.thailand {
+    position: absolute;
+    width: 862px;
+    height: 667px;
+    top: -121px;
+    left: -131px;
+    background: url(thailnad.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 10;
+}
+
+.travel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 207px;
+    height: 188px;
+    top: 77px;
+    left: 177px;
+    color: #00abf0;
+    font-family: Lobster, var(--default-font-family);
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 93.75px;
+    text-align: left;
+    z-index: 25;
+}
+
+.login-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 529px;
+    height: 32px;
+    top: 231px;
+    left: 16px;
+    color: #ffffff;
+    font-family: Roboto Mono, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.652px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 23;
+}
+
+.rectangle {
+    position: absolute;
+    width: 492px;
+    height: 70px;
+    top: 335px;
+    left: 11px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 13;
+    border-radius: 30px;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 209px;
+    height: 41px;
+    top: 348px;
+    left: 0;
+    color: #ffffff;
+    font-family: Rochester, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 17;
+}
+
+.rectangle-2 {
+    position: absolute;
+    width: 492px;
+    height: 70px;
+    top: 431px;
+    left: 11px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 14;
+    border-radius: 30px;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 198px;
+    height: 41px;
+    top: 13px;
+    left: -1px;
+    color: #ffffff;
+    font-family: Rochester, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 16;
+}
+
+.flex-row-ee {
+    position: relative;
+    width: 1393px;
+    height: 378px;
+    margin: 0 0 0 37px;
+    z-index: 22;
+}
+
+.forgot-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 166px;
+    height: 56px;
+    top: 0;
+    left: 365px;
+    color: #ffffff;
+    font-family: Roboto Mono, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 56px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.8px;
+    z-index: 12;
+}
+
+.regroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 225px;
+    height: 378px;
+    top: 0;
+    left: 187px;
+    z-index: 22;
+}
+
+.img-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: url(icons8-facebook-50.png) no-repeat center;
+    background-size: cover;
+    z-index: 20;
+}
+
+.img-4 {
+    flex-shrink: 0;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background: url(icons8-instagram-50.png) no-repeat center;
+    background-size: cover;
+    z-index: 21;
+}
+
+.img-5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: url(icons8-whatsapp-50.png) no-repeat center;
+    background-size: cover;
+    z-index: 22;
+}
+
+.flight-logo {
+    position: absolute;
+    width: 394px;
+    height: 348px;
+    top: 28px;
+    left: 999px;
+    background: url(./assets/images/673743a3b0ca9cc967b1cb35ec179a47ef673aa1.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.rectangle-6 {
+    position: absolute;
+    width: 492px;
+    height: 70px;
+    top: 56px;
+    left: 39px;
+    cursor: pointer;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 15;
+    border-radius: 30px;
+}
+
+.login-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 299px;
+    height: 41px;
+    top: 13px;
+    left: 96px;
+    color: #ffffff;
+    font-family: Rochester, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 18;
+}
+
+.copyright-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 557px;
+    height: 78px;
+    top: 300px;
+    left: 0;
+    color: #ffffff;
+    font-family: Roboto Flex, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28.125px;
+    text-align: center;
+}

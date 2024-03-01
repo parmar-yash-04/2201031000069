@@ -1,0 +1,280 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.travel {
+    display: block;
+    position: relative;
+    height: 38px;
+    margin: 30px 0 0 98px;
+    color: #ffffff;
+    font-family: Lobster, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.flex-row-bb {
+    position: relative;
+    width: 586px;
+    height: 34px;
+    margin: 1px 0 0 707px;
+    z-index: 17;
+}
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 23px;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 119px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+}
+
+.tours {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 234px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 344px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+}
+
+.login {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 485px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+}
+
+.expand-arrow {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 2px;
+    left: 554px;
+    background: url(icons8-expand-arrow-50.png) no-repeat center;
+    background-size: contain;
+    z-index: 12;
+}
+
+.paris {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 752px;
+    height: 176px;
+    margin: 153px 0 0 344px;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 150px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 15px;
+    background: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+    z-index: 2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rectangle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 319px;
+    height: 66px;
+    margin: 208px 0 0 568px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fffefe;
+    z-index: 4;
+    border-radius: 20px;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 210px;
+    height: 42.53px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42.53px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 4;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 794.98px;
+    height: 7.9px;
+    margin: 208px 0 0 331px;
+    z-index: 9;
+}
+
+.rectangle {
+    flex-shrink: 0;
+    position: relative;
+    width: 134.98px;
+    height: 7.9px;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    z-index: 9;
+    border-radius: 24.27px;
+}
+
+.rectangle-1 {
+    flex-shrink: 0;
+    position: relative;
+    width: 134.98px;
+    height: 7.9px;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 8;
+    border-radius: 24.27px;
+}
+
+.rectangle-2 {
+    flex-shrink: 0;
+    position: relative;
+    width: 134.98px;
+    height: 7.9px;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    z-index: 7;
+    border-radius: 24.27px;
+}
+
+.rectangle-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 134.98px;
+    height: 7.9px;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    z-index: 6;
+    border-radius: 24.27px;
+}
+
+.paris-4 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 50%;
+    background: url(paris.jpg) no-repeat center;
+    background-size: cover;
+    transform: translate(-50%, 0);
+}
+
+.rectangle-5 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/60b3598c-45c9-463a-86e4-1a0f70ec1b5e.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}

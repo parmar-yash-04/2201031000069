@@ -1,0 +1,619 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #112e42;
+    overflow: hidden;
+}
+
+.flex-row-ec {
+    position: relative;
+    width: 1564.75px;
+    height: 666.459px;
+    margin: -306px 0 0 130px;
+    z-index: 40;
+}
+
+.polygon {
+    position: absolute;
+    width: 632.75px;
+    height: 666.459px;
+    top: 0;
+    left: 932px;
+    background: url(./assets/images/8d5658bc-5fea-421d-a1be-6b1956f09c4e.png) no-repeat center;
+    background-size: cover;
+    z-index: 40;
+}
+
+.tour-application-form {
+    position: absolute;
+    width: 614px;
+    height: 24px;
+    top: 361px;
+    left: 269px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 39;
+}
+
+.tour-application {
+    position: relative;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    color: #00abf0;
+    font-family: Inter, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+    text-align: center;
+}
+
+.rectangle {
+    position: absolute;
+    width: 504px;
+    height: 55px;
+    top: 449px;
+    left: 230px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 37;
+    border-radius: 30px;
+}
+
+.name-of-tour {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 1180px;
+    height: 37px;
+    top: 458px;
+    left: 0;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    z-index: 38;
+}
+
+.rectangle-1 {
+    position: absolute;
+    width: 504px;
+    height: 55px;
+    top: 521px;
+    left: 230px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 35;
+    border-radius: 30px;
+}
+
+.name-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 527px;
+    left: 0;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 36;
+}
+
+.rectangle-2 {
+    position: absolute;
+    width: 504px;
+    height: 55px;
+    top: 593px;
+    left: 230px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 33;
+    border-radius: 30px;
+}
+
+.email-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 609px;
+    left: 0;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 34;
+}
+
+.flex-row {
+    position: relative;
+    width: 1203px;
+    height: 55px;
+    margin: -1.459px 0 0 130px;
+    z-index: 32;
+}
+
+.button {
+    position: absolute;
+    width: 259px;
+    height: 55px;
+    top: 0;
+    left: 94px;
+    cursor: pointer;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 31;
+    border-radius: 30px;
+}
+
+.rectangle-3 {
+    position: absolute;
+    width: 247px;
+    height: 55px;
+    top: 0;
+    left: 487px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 29;
+    border-radius: 30px;
+}
+
+.rectangle-4 {
+    position: absolute;
+    width: 283px;
+    height: 55px;
+    top: 0;
+    left: 920px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 27;
+    border-radius: 30px;
+}
+
+.zip-code-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 14px;
+    left: 756px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 28;
+}
+
+.city-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 16px;
+    left: 0;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 32;
+}
+
+.state {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 16px;
+    left: 378px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 30;
+}
+
+.general-information {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 54px 0 0 173px;
+    color: #d21919;
+    font-family: Inter, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 24;
+}
+
+.passenger-passport-detail {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 48px 0 0 130px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 23;
+}
+
+.flex-row-ba {
+    position: relative;
+    width: 1246px;
+    height: 55px;
+    margin: 26px 0 0 130px;
+    z-index: 22;
+}
+
+.rectangle-5 {
+    position: absolute;
+    width: 482px;
+    height: 55px;
+    top: 0;
+    left: 292px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 22;
+    border-radius: 30px;
+}
+
+.rectangle-6 {
+    position: absolute;
+    width: 247px;
+    height: 55px;
+    top: 0;
+    left: 999px;
+    cursor: pointer;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 19;
+    border-radius: 30px;
+}
+
+.passport-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 16px;
+    left: 0;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+}
+
+.age {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 16px;
+    left: 826px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+}
+
+.flex-row-c {
+    position: relative;
+    width: 1688.446px;
+    height: 637.844px;
+    margin: 23px 0 0 29px;
+    z-index: 41;
+}
+
+.polygon-7 {
+    position: absolute;
+    width: 663.446px;
+    height: 637.844px;
+    top: 0;
+    left: 1025px;
+    background: url(./assets/images/1d7395c4-9872-4a96-b0ec-76496ac763c2.png) no-repeat center;
+    background-size: cover;
+    z-index: 41;
+}
+
+.rectangle-8 {
+    position: relative;
+    width: 247px;
+    height: 55px;
+    margin: 3px 0 0 75px;
+    cursor: pointer;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 15;
+    border-radius: 30px;
+}
+
+.rectangle-9 {
+    position: absolute;
+    width: 396px;
+    height: 55px;
+    top: 3px;
+    left: 479px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 17;
+    border-radius: 30px;
+}
+
+.citizenship-nationality {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 9px;
+    left: 101px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+}
+
+.gender {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 21px;
+    left: 927px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+}
+
+.dietary-preference {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 90px;
+    left: 101px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+}
+
+.img {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 90px;
+    left: 408px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 13;
+    border-radius: 5px;
+}
+
+.img-a {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 90px;
+    left: 610px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 12;
+    border-radius: 5px;
+}
+
+.img-b {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 90px;
+    left: 739px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 11;
+    border-radius: 5px;
+}
+
+.img-c {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 90px;
+    left: 983px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.img-d {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 147px;
+    left: 408px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 8;
+    border-radius: 5px;
+}
+
+.img-e {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 147px;
+    left: 610px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 7;
+    border-radius: 5px;
+}
+
+.img-f {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 147px;
+    left: 739px;
+    background: #112e42;
+    border: 1px solid #00abf0;
+    z-index: 6;
+    border-radius: 5px;
+}
+
+.airline-seat-preference {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 151px;
+    left: 101px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+
+.rectangle-10 {
+    position: absolute;
+    width: 296px;
+    height: 62px;
+    top: 218px;
+    left: 523px;
+    background: #00abf0;
+    border: 1px solid #00abf0;
+    z-index: 2;
+    border-radius: 25px;
+}
+
+.submit {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 27px;
+    top: 16px;
+    left: 89px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 523px;
+    height: 78px;
+    top: 280px;
+    left: 0;
+    color: #ffffff;
+    font-family: Roboto Flex, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 78px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 1.2px;
+}
